@@ -1,0 +1,20 @@
+.vertical{
+    margin: 50px 20px;
+}
+
+.vertical a{
+    text-indent: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    background-image: url(../img/menu.png);
+    display: block;
+    color: black;
+    line-height: 40px;
+}
+
+.vertical a:hover{
+    background-position: right;
+    color: white;
+}
