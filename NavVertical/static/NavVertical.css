@@ -1,3 +1,7 @@
+h2{
+    margin: 50px 20px;
+}
+
 .vertical{
     margin: 50px 20px;
 }
@@ -8,13 +12,15 @@
     text-decoration: none;
     width: 200px;
     height: 40px;
-    background-image: url(../img/menu.png);
+    background: #f7b700 url(../img/menu.png);
     display: block;
     color: black;
     line-height: 40px;
 }
 
-.vertical a:hover{
+.vertical a:hover, #selecionado{
     background-position: right;
+    background-color: #e78300; 
     color: white;
 }
+
